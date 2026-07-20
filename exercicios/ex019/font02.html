@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Coffe spark' ;
+            src: url(Coffee\ Spark.otf) format('opentype') url(Coffee\ Spark.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+               Tipos de format()
+               -opentype (otf)
+               -truetype (ttf)
+               -embedded-opentype
+               -truetype-aat (Apple Advrnced Typography)
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family:  'Coffe spark';
+            font-size: 3em;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quo, rerum eius magnam mollitia ut quibusdam excepturi ipsam corporis sequi nisi obcaecati. Quia officia consectetur, possimus veritatis corrupti dolore quod?</p>
+</body>
+</html>
