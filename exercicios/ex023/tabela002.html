@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        thead , tfoot {
+            background-color: gray;
+            color: white;
+        }
+        .num {
+            background-color: rgb(146, 161, 122);
+            text-align: right;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usos de Tabelas Grandes</h1>
+
+    <table>
+        <caption> Lista de municípios do Brasil por população  </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População </th>
+
+            </tr> 
+        </thead>
+        <tbody>
+             <tr>
+                <td>Sao Paulo</td>
+                <td class="num"> 11 451 999</td>
+             </tr>
+             <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">6 211 223</td>
+             </tr>
+             <tr>
+                <td>Brasília</td>
+                <td class="num"> 2 817 281</td>
+             </tr>
+             <tr>
+                <td>Fortaleza</td>
+                <td class="num">2 428 708</td>
+                
+             </tr>
+             <tr>
+                <td>Salvador</td>
+                <td class="num">217 678</td>
+             </tr>
+             <tr>
+                <td>Belo Horizonte</td>
+                <td class="num">2 315 560</td>
+             </tr>
+             <tr>
+                <td>Manaus</td>
+                <td class="num">2 063 566</td>
+             </tr>
+             <tr>
+                <td>Curitiba</td>
+                <td class="num">1 773 718</td>
+             </tr>
+             <tr>
+                <td>Recife</td>
+                <td class="num">1 488 920</td>
+             </tr>
+             <tr>
+                <td>Porto Seguro</td>
+                <td class="num">1 332 845</td>
+             </tr>
+        </tbody>
+        <tfoot>
+              <tr>
+                  <th scope="row">Total de Habitantes</th>
+                  <td>35 639 873</td>
+              </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
